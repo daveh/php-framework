@@ -1,4 +1,4 @@
-# Frameworkless PHP: Build a PHP Framework
+# Build a PHP Framework
 
 In this application I'll be teaching you how PHP frameworks work by building one step by step.
 
