@@ -1,6 +1,7 @@
 {
     "require": {
         "guzzlehttp/psr7": "^2.8",
-        "httpsoft/http-emitter": "^1.1"
+        "httpsoft/http-emitter": "^1.1",
+        "league/route": "^6.2"
     }
 }

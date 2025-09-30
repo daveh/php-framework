@@ -17,4 +17,5 @@ Each step builds upon the next, and links to each of the steps are below.
 1. [The Front Controller](https://youtu.be/pZTp5NohRfE)
 1. [The _public_ Folder](https://youtu.be/RM_yYBlXNxg)
 1. [HTTP Messages](https://youtu.be/VLcJi0hyoFw)
+1. [The Router](https://youtu.be/nfIURhvknac)
 
