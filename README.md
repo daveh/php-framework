@@ -10,12 +10,13 @@ In order to follow along you need to already be familiar with basic PHP.
 
 ## Steps
 
-The full tutorial for each step is on [YouTube](https://www.youtube.com/playlist?list=PLFbnPuoQkKseimWeA4UFo1BPFTeXnv_1S).
+Each step is explained in detail in a video, and builds upon the next.
 
-Each step builds upon the next, and links to each of the steps are below.
+You can watch the [full playlist here](https://www.youtube.com/playlist?list=PLFbnPuoQkKseimWeA4UFo1BPFTeXnv_1S), or access the individual steps below.
 
 1. [The Front Controller](https://youtu.be/pZTp5NohRfE)
 1. [The _public_ Folder](https://youtu.be/RM_yYBlXNxg)
 1. [HTTP Messages](https://youtu.be/VLcJi0hyoFw)
 1. [The Router](https://youtu.be/nfIURhvknac)
+1. [Controllers](https://youtu.be/7JZ7x4bwXq4)
 
