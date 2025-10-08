@@ -6,11 +6,12 @@ namespace App\Controllers;
 
 use GuzzleHttp\Psr7\Utils;
 use GuzzleHttp\Psr7\Response;
-use GuzzleHttp\Psr7\ServerRequest;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 
 class ProductController
 {
-    public function index(): Response
+    public function index(): ResponseInterface
     {
         $stream = Utils::streamFor("List of products");
 
@@ -21,7 +22,7 @@ class ProductController
         return $response;
     }
 
-    public function show(ServerRequest $request, array $args): Response
+    public function show(ServerRequestInterface $request, array $args): ResponseInterface
     {
         $id = $args["id"];
 
