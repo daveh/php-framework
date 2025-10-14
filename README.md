@@ -21,4 +21,5 @@ You can watch the [full playlist here](https://www.youtube.com/playlist?list=PLF
 1. [Controllers](https://youtu.be/7JZ7x4bwXq4)
 1. [Interfaces](https://youtu.be/ueP1zDyqigQ)
 1. [HTTP Factories](https://youtu.be/ODoIwRGQhyw)
+1. [Dependency Injection](https://youtu.be/vDdW_lgitAA)
 
