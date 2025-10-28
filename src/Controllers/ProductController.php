@@ -6,41 +6,19 @@ namespace App\Controllers;
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Psr\Http\Message\ResponseFactoryInterface;
-use Framework\Template\RendererInterface;
+use Framework\Controller\AbstractController;
 
-class ProductController
+class ProductController extends AbstractController
 {
-    public function __construct(private ResponseFactoryInterface $factory,
-                                private RendererInterface $renderer)
-    {
-    }
-
     public function index(): ResponseInterface
     {
-        $contents = $this->renderer->render("product/index");
-
-        $stream = $this->factory->createStream($contents);
-
-        $response = $this->factory->createResponse();
-
-        $response = $response->withBody($stream);
-
-        return $response;
+        return $this->render("product/index");
     }
 
     public function show(ServerRequestInterface $request, array $args): ResponseInterface
     {
-        $contents = $this->renderer->render("product/show", [
+        return $this->render("product/show", [
             "id" => $args["id"]
         ]);
-
-        $stream = $this->factory->createStream($contents);
-
-        $response = $this->factory->createResponse();
-
-        $response = $response->withBody($stream);
-
-        return $response;
     }
 }
