@@ -24,4 +24,5 @@ You can watch the [full playlist here](https://www.youtube.com/playlist?list=PLF
 1. [Dependency Injection](https://youtu.be/vDdW_lgitAA)
 1. [Templating](https://youtu.be/Vo2i9fj3QRY)
 1. [The Base Controller](https://youtu.be/xL0KtEQjSo0)
+1. [Data and the ORM](https://youtu.be/E3dgHQFUi6Y)
 

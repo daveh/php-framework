@@ -5,7 +5,9 @@
         "league/route": "^6.2",
         "nyholm/psr7": "^1.8",
         "php-di/php-di": "^7.1",
-        "league/plates": "^3.6"
+        "league/plates": "^3.6",
+        "doctrine/orm": "^3.5",
+        "symfony/cache": "^7.3"
     },
     "autoload": {
         "psr-4": {
